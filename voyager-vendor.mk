@@ -132,28 +132,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsuntory \
     vendor.somc.hardware.security.secd@1.0 \
-    camera.sdm660 \
     libSonyIMX300PdafLibrary \
     libactuator_bu64747gwz \
-    libarcimageprocess \
-    libarcsoft_antishaking \
-    libarcsoft_beautyshot \
-    libarcsoft_condition_detection \
-    libarcsoft_detection_base \
-    libarcsoft_dro \
-    libarcsoft_face_detection \
-    libarcsoft_face_tracking \
-    libarcsoft_high_dynamic_range \
-    libarcsoft_low_light_shot \
-    libarcsoft_motiondetection \
     libarcsoft_nighthawk \
-    libarcsoft_object_tracking \
-    libarcsoft_picauto \
-    libarcsoft_rer \
-    libarcsoft_selfie_correction \
-    libarcsoft_smart_denoise \
-    libarcsoft_smile_detection \
-    libcam3rdparty \
     libcdsprpc \
     libchromatix_imx219_sm42_common \
     libchromatix_imx219_sm42_cpp_snapshot \
@@ -193,7 +174,6 @@ PRODUCT_PACKAGES += \
     libchromatix_imx300_sm42_zsl_video_hdr_3a \
     libdepthmapwrapper \
     libflash_pmic \
-    libhal_dbg \
     libjpegdhw \
     libjpegdmahw \
     libjpegehw \
@@ -230,7 +210,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_imglib_faceproc_adspstub \
     libmmcamera_imx219 \
     libmmcamera_imx300 \
-    libmmcamera_interface \
     libmmcamera_isp_abf48 \
     libmmcamera_isp_aec_bg_stats47 \
     libmmcamera_isp_bf_stats47 \
@@ -289,17 +268,13 @@ PRODUCT_PACKAGES += \
     libmmcamera_tuning \
     libmmcamera_tuning_lookup \
     libmmjpeg \
-    libmmjpeg_interface \
-    libmmlib2d_interface \
     libmmqjpeg_codec \
     libmmqjpegdma \
     libmorpho_video_refiner \
     libmpbase \
-    libqomx_core \
     libqomx_jpegdec \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
-    libremosaic_daemon \
     android.hardware.keymaster@3.0-impl-qti \
     libdevice_security_vendor \
     cnss-daemon \
