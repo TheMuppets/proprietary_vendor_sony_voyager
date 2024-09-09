@@ -133,9 +133,6 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl-qti \
     libcdsprpc \
     libdevice_security_vendor \
-    libkeymasterdeviceutils \
-    libkeymasterprovision \
-    libkeymasterutils \
     libsuntory \
     vendor.somc.hardware.security.secd@1.0 \
     camera.sdm660 \
