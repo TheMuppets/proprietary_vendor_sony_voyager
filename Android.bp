@@ -5224,3 +5224,17 @@ cc_prebuilt_binary {
     prefer: true,
     soc_specific: true,
 }
+
+install_symlink {
+    name: "vendor_lib_android_hardware_keymaster@3_0-impl-qti_so",
+    soc_specific: true,
+    installed_location: "lib/android.hardware.keymaster@3.0-impl-qti.so",
+    symlink_target: "/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_android_hardware_keymaster@3_0-impl-qti_so",
+    soc_specific: true,
+    installed_location: "lib64/android.hardware.keymaster@3.0-impl-qti.so",
+    symlink_target: "/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so",
+}

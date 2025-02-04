@@ -311,3 +311,7 @@ PRODUCT_PACKAGES += \
     vendor.semc.hardware.secd@1.0-service \
     keyprovd \
     qns
+
+PRODUCT_PACKAGES += \
+    vendor_lib_android_hardware_keymaster@3_0-impl-qti_so \
+    vendor_lib64_android_hardware_keymaster@3_0-impl-qti_so
