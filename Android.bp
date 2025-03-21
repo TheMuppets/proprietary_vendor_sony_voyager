@@ -2054,33 +2054,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmm-qcamera",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmm-qcamera.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libmmcamera_interface",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmmcamera2_c2d_module",
     owner: "sony",
     strip: {
@@ -4692,7 +4665,6 @@ cc_prebuilt_library_shared {
                 "libmmcamera2_pproc_modules",
                 "libmmcamera2_imglib_modules",
                 "libmmcamera_eztune_module",
-                "libmm-qcamera",
                 "liblog",
                 "libcutils",
                 "libfastcvopt",
