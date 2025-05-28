@@ -130,7 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/voyager/proprietary/vendor/firmware/bu64747gwz.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/bu64747gwz.prog
 
 PRODUCT_PACKAGES += \
-    android.hardware.keymaster@3.0-impl-qti \
     libcdsprpc \
     libdevice_security_vendor \
     libsuntory \
@@ -302,6 +301,7 @@ PRODUCT_PACKAGES += \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
     libremosaic_daemon \
+    android.hardware.keymaster@3.0-impl-qti \
     cnss-daemon \
     android.hardware.keymaster@3.0-service-qti \
     vendor.semc.hardware.secd@1.0-service \
@@ -309,5 +309,4 @@ PRODUCT_PACKAGES += \
     qns
 
 PRODUCT_PACKAGES += \
-    vendor_lib_android_hardware_keymaster@3_0-impl-qti_so \
     vendor_lib64_android_hardware_keymaster@3_0-impl-qti_so
