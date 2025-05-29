@@ -11,45 +11,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-    name: "libcdsprpc",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libcdsprpc.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libcdsprpc.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libsuntory",
     owner: "sony",
     strip: {
@@ -722,6 +683,32 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libarcsoft_high_dynamic_range",
                 "libmmcamera_interface",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcdsprpc",
+    owner: "sony",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libcdsprpc.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
                 "libc++",
                 "libc",
                 "libm",
